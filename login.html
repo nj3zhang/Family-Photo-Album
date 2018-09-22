@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Page</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<!-- disables right click on button -->
+<body oncontextmenu="return false" background="images/login.jpg">
+	<h1 class="logintitle"> Login Page </h1>
+	<p> Please Enter Password... </p>
+
+<!-- Textfield to enter password -->
+<form class="form" name="login">
+	<div class="login">
+		<input type="password" placeholder="Password" name="pswrd" id="textfield">
+		<br>
+		<input type="button" onclick="check(this.form)" value="Enter" class="button" id='search'/>
+	</div>
+</form>
+
+<script>
+
+function check(form)
+// function for the javascript it to check the value entered in the texfield
+{
+ 	if(form.pswrd.value == "123") {
+    window.location.href= 'menu.html';
+	}
+ // if the value entered in the textfield is 123, the menu page will open
+ 
+}
+
+function submit()
+{ 
+	$('#textfield').keydown((event) => {
+      // execute search on Enter (13 represents enter key on keyboard)
+      if (event.which === 13) {
+      	$('button').click();
+} });
+}
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+<script src="./js/jquery-3.2.1.min.js" type="text/javascript"></script>
+</html> 

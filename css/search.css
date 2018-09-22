@@ -1,0 +1,32 @@
+@font-face{
+font-family: Walkway SemiBold;
+src: url(walkway/WalkwaySemiBold.ttf);
+}
+
+body{
+	margin: 80px;
+
+
+}
+li {
+list-style-type: none;
+display: inline;
+
+}
+
+h3{
+font:normal 50px "Walkway SemiBold";
+text-align: center;
+margin:0;
+}
+.image{
+	width:30%;
+	margin: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+
+}
+
+[]
+

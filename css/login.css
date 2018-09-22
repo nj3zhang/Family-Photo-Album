@@ -1,0 +1,75 @@
+@font-face{
+font-family: Walkway SemiBold;
+src: url(walkway/WalkwaySemiBold.ttf);
+}
+
+body{
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: black;
+	font: normal 100px "Walkway SemiBold";
+	margin: auto;
+}
+
+h1{ font-size: 100px;
+	text-align: center;
+	color: white ;
+	text-shadow: 2px 2px 2px #000;
+	padding-top: 40px
+}
+
+p {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.form {
+position:absolute;
+left: 45%;
+top: 330px;
+width: 50%;
+height: 30%;
+
+}
+
+.button {
+	background-color: transparent;
+  display: inline-block;
+  border-color:#E1E7E7 #616161 #616161 #E1E7E7 ;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  font:normal 60px "Walkway SemiBold";
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 30px;
+  position: relative;
+  left: 300px;
+}
+
+#textfield {
+	left: 30px;
+	width: 200px;
+	height: 50px;
+	background-color: transparent;
+	border-style: line;
+	border-color: white;
+	border-width: 5px;
+	color:white;
+	font-size: 20px
+}
+
+input::placeholder {
+	font:normal 16px "Avenir";
+	padding-left: 5px;
+}
+
+}

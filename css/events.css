@@ -1,0 +1,321 @@
+@font-face{
+font-family: Walkway SemiBold;
+src: url(walkway/WalkwaySemiBold.ttf);
+}
+
+
+body{
+  margin:0;
+  background-color:	#eaeafb;
+  padding-bottom: 100px;
+  max-height: 1400px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.events {
+  width:100%;
+  opacity: 0.9;
+  box-shadow: 2px 2px 2px #000;
+  position: relative;
+  bottom: 20px;
+}
+
+.etext{
+  text-align: center;
+  position:relative;
+  bottom:450px;
+  font: normal 150px "Walkway SemiBold";
+  color: white;
+  text-shadow: 2px 2px 2px #000;
+}
+
+/*Menu Bar*/
+.bar{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  width:100%;
+  height: 43px;
+  background-color: #333;
+  box-shadow: 3px 3px 3px #000;
+}
+
+.menu{
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
+  display: block;
+  width: 100px;
+  height: 45px;
+  color: white;
+  position:relative;
+  left: 20px;
+  top: 0px;
+  font: normal 25px "Walkway SemiBold";
+  text-align: center;
+}
+
+a {
+  padding-top:10px;
+}
+
+.menu:hover {
+  background-color: white;
+  color: black;
+  position: relative;
+}
+
+.search {
+  position:relative;
+  left: 1180px;
+  bottom: 30px;
+}
+
+#search {
+  position: relative;
+  left: 1200px;
+  bottom: 30px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  width: 40px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+/*menu bar end*/
+
+/*side menu bar*/
+.side{
+	margin:0;
+	padding-left: 0px;
+	border: solid;
+	border-color: black;
+	border-radius: 5px;
+	width:250px;
+	position:relative;
+	left: 1170px;
+  bottom:100px;
+	font: normal 20px "Walkway SemiBold";
+	line-height: 1.5em;
+	background-color: #D3D3D3;
+	box-shadow: 2px 2px 2px #333;
+}
+.maincat{
+  text-decoration: bold;
+  color: black;
+  display: block;
+  padding-left: 35px;
+}
+.subcat {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding-left: 70px;
+}
+li a:hover {  background-color: white;
+  color: black;
+  position: relative;
+}
+h1{
+	margin:0;
+	font: normal 25px "Walkway SemiBold";
+	padding-top: 10px;
+	background-color: #333;
+	color: white;
+	height: 45px;
+	text-align: center;
+	box-shadow: 2px 2px 2px #000;
+}
+/*birthday sub category tab*/
+.bcontainer {
+  position: relative;
+  bottom: 750px;
+  width: 50%;
+  max-height: 240px;
+}
+
+.birthday {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: 150px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*horizontal shadow, vertical shadow,blur,spread, color*/
+}
+
+.boverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 150px;
+  right: 0;
+  height: auto;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#ededed;
+}
+
+.bcontainer:hover .boverlay {
+  opacity: 0.8;
+}
+
+.btext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font: normal 50px "Walkway SemiBold";
+}
+
+/*subcat tab zoo*/
+.zcontainer {
+  position: relative;
+  bottom: 650px;
+  width: 50%;
+  max-height:240px;
+}
+
+.zoo {
+  display: block;
+  width: 50%;
+  height: 240px;
+  margin-left: 150px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*horizontal shadow, vertical shadow,blur,spread, color*/
+}
+
+.zoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 150px;
+  right: 0;
+  height: auto;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#ededed;
+}
+
+.zcontainer:hover .zoverlay {
+  opacity: 0.8;
+}
+
+.ztext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font: normal 50px "Walkway SemiBold";
+}
+
+/*sub cat. school trip*/
+.tcontainer {
+  position: relative;
+  left: 550px;
+  bottom: 1230px;
+  width: 50%;
+  max-height: 240px;
+
+}
+
+.school {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: 150px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*horizontal shadow, vertical shadow,blur,spread, color*/
+
+}
+
+.toverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 150px;
+  right: 0;
+  height: auto;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#ededed;
+}
+
+.tcontainer:hover .toverlay {
+  opacity: 0.8;
+}
+
+.ttext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font: normal 50px "Walkway SemiBold";
+  text-align: center;
+  line-height: 1.3em;
+}
+
+
+/*Snow*/
+.scontainer {
+  position: relative;
+  left: 550px;
+  bottom: 1130px;
+  width: 50%;
+}
+
+.snow {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: 150px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*horizontal shadow, vertical shadow,blur,spread, color*/
+
+}
+
+.soverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 150px;
+  right: 0;
+  height: auto;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#ededed;
+}
+
+.scontainer:hover .soverlay {
+  opacity: 0.8;
+}
+
+.stext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font: normal 50px "Walkway SemiBold";
+  text-align: center;
+  line-height: 1.3em;
+}

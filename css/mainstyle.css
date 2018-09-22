@@ -1,0 +1,78 @@
+@font-face{
+font-family: Walkway SemiBold;
+src: url(walkway/WalkwaySemiBold.ttf);
+}
+
+body{
+  margin: auto;
+  /*Font*/
+  color: black;
+  font: normal 100px "Walkway SemiBold";
+  line-height: 0.8em;
+  letter-spacing: 3px;
+  /*setting the background*/
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black; }
+/*Style of heading*/
+h1{ 
+  color: white;
+  margin: 30px;
+  font-size: 100px;
+  text-shadow: 2px 2px 2px #000; }
+.album {
+	text-align: center; }
+.zhang {
+  text-align: center; }
+/*Login button*/
+.login{
+  background-color: transparent;
+  display: inline-block;
+  border-color:#E1E7E7 #616161 #616161 #E1E7E7 ;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  font:normal 60px "Walkway SemiBold";
+  width: 230px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 60px;
+  position: fixed;
+  right: 10%;
+/*manipulating the color, border, font etc.*/ } 
+
+/*Adding login button animation*/
+.login span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+/*color and position after the span*/
+.login span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s; }
+
+/*style when the curser hover over the button*/
+.login:hover {
+	border-color: transparent; }
+/*animation as the curser hover over*/
+.login:hover span {
+  padding-right: 45px; }
+
+.login:hover span:after {
+  opacity: 1;
+  right: 0; }
+
+
+
+
+

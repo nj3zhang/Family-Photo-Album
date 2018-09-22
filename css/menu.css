@@ -1,0 +1,156 @@
+@font-face{
+font-family: Walkway SemiBold;
+src: url(walkway/WalkwaySemiBold.ttf);
+}
+
+body {
+background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: black;
+}
+
+h1 { 
+font: normal 100px "Walkway SemiBold";
+color: white;
+text-shadow: 2px 2px 2px #000;
+text-align: center;
+ }
+
+/*Events*/
+.econtainer {
+  position: relative;
+  width: 63%;
+}
+
+.events {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: 150px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /*horizontal shadow, vertical shadow,blur,spread, color*/
+}
+
+.eoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 150px;
+  right: 0;
+  height: auto;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#ededed;
+}
+
+.econtainer:hover .eoverlay {
+  opacity: 0.8;
+}
+
+.etext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font: normal 50px "Walkway SemiBold";
+}
+
+/* Hover effect from: https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade 
+
+/*People*/
+.pcontainer {
+  position: relative;
+  left: 850px;
+  bottom: 300px;
+  width: 50%;
+}
+
+.people {
+  display: block;
+  width: 60%;
+  height: auto;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* horizontal shadow, vertical shadow,blur,spread, color*/
+}
+
+.poverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 200px;
+  height: auto;
+  width: 60%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#ededed;
+}
+
+.pcontainer:hover .poverlay {
+  opacity: 0.8;
+}
+
+.ptext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font: normal 50px "Walkway SemiBold";
+}
+
+/*Year*/
+.ycontainer {
+  position: relative;
+  bottom: 150px;
+  width: 63%;
+}
+
+.year {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: 150px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   /*horizontal shadow, vertical shadow,blur,spread, color*/
+}
+
+.yoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 150px;
+  right: 0;
+  height: auto;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#ededed;
+}
+
+.ycontainer:hover .yoverlay {
+  opacity: 0.8;
+}
+
+.ytext {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font: normal 50px "Walkway SemiBold";
+}
+
+
+
